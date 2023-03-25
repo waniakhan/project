@@ -1,3 +1,4 @@
+
 *{
   margin: 0;
   padding: 0;
@@ -141,7 +142,7 @@ a{
 }
 .col-2 img{
     max-width: 650px;
-  height: 460px;
+    height: 460px;
     padding: 30px 0px;
 }
 .elements{
@@ -162,6 +163,7 @@ a{
     }
 
 }
+
 .col-2 h1{
     color:rgb(250,252,252) ;
     font-size: 50px;
@@ -182,24 +184,22 @@ a{
 }
 
 
-/* .....about..... */
+    /* ...about... */ 
 
 .col-1 img{
   width: 30%;
-    height: 25vh;
+  height: 25vh;
 float:left;
-  margin-top:40px ;
+margin-top:40px ;
 }
 .col-1 p{
-   margin-top: 90px;
+margin-top: 90px;
   text-align: center;
   text-transform: capitalize;
   background-color: rgb(247, 248, 248);
 }
 
-
 /* ......products.... */
-
 
 .small-container h2{
   color: rgb(215, 44, 44);
@@ -207,6 +207,7 @@ float:left;
   text-transform: capitalize;
   text-align: center;
   margin-top: 100px;
+ 
 }
 .row{
   display: flex;
@@ -223,8 +224,9 @@ margin-inline-start: 30px;
   width: 100%;
 /* float: left; */
 padding: 1px;
-  margin-top: 30px;
+margin-top: 30px;
 }
+
 
 /* ...footer... */
 
@@ -241,7 +243,6 @@ flex-wrap: wrap;
 .footer{
 background-color: rgb(200, 197, 202);
 padding: 20px 0;
-
 }
 .footer-col{
 width: 25%;
@@ -259,7 +260,7 @@ position: relative;
 /* content:''; */
 position: absolute;
 left:0;
-bottom:-10px;
+bottom:10px;
  height:2px;
  box-sizing: border-box;
  width: 40px;
