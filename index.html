@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style - Copy.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -14,10 +15,10 @@
 <div class="header">
     <div class="container">
         <div class="navbar">
-            <div class="logo">
+            <div class="logo" data-aos="fade-right">
                 <img src="logo-no-background.png">
             </div>
-            <nav>
+            <nav data-aos="fade-left">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="products.html">Products</a>
@@ -60,7 +61,7 @@
                     <p>Make your best moments more stylish with our latest designs of clothing.</p>
                 </div>
                 <div class="col-2">
-                    <img src="istockphoto-1421098847-170667a.jpg" class="elements" alt="">
+                    <img src="istockphoto-1421098847-170667a.jpg" alt="" class="elements">
                 </div>
             </div>
         </div>
@@ -70,8 +71,8 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-1">
-                <img src="about us.jpg" alt="">
+            <div class="col-1" >
+                <img src="about us.jpg" alt="" data-aos="fade-right">
                 <p>We at Fashion Hub believe in high quality and exceptional customer service. But most importantly, we believe shopping is a right, not a luxury, so we strive to deliver the best products at the most affordable prices, and ship them to you regardless of where you are located.</p>
             </div>
         </div>
@@ -80,14 +81,15 @@
     
 
     <!-- -----products----- -->
-    
    
     <div class="Products">
         <div class="small-container">
-            <h2>Products</h2>
+            <h2 data-aos="fade-up"
+            data-aos-duration="3000">Products</h2>
             <div class="row">
-                <div class="col-3">
-                    <img src="./WhatsApp Image 2023-03-24 at 2.38.58 AM.jpeg" alt="">
+                <div class="col-3" >
+                    <img src="./WhatsApp Image 2023-03-24 at 2.38.58 AM.jpeg" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" alt="">
                     <h4 align="center">Embroidered Shirt</h4>
                     <div class="rating" align="center">
                         <i class="fa fa-star"></i>
@@ -99,7 +101,7 @@
                     <p>$50.00</p>
                 </div>
                 <div class="col-3">
-                    <img src="./1.webp" alt="">
+                    <img src="./1.webp" data-aos="fade-down"alt="">
                     <h4 align="center">3PC Embroidered Suit</h4>
                     <div class="rating" align="center">
                         <i class="fa fa-star"></i>
@@ -111,7 +113,8 @@
                     <p>$50.00</p>
                 </div>
                 <div class="col-3">
-                    <img src="./3.jpeg" alt="">
+                    <img src="./3.jpeg" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom"alt="">
                     <h4 align="center">Embroidered Kurti & Trouser</h4>
                     <div class="rating" align="center">
                         <i class="fa fa-star"></i>
@@ -123,7 +126,7 @@
                     <p>$50.00</p>
                 </div>
                 <div class="col-3">
-                    <img src="./4.jpg" alt="">
+                    <img src="./4.jpg"  data-aos="fade-down"alt="">
                     <h4 align="center">Embroidered Frock</h4>
                     <div class="rating" align="center">
                         <i class="fa fa-star"></i>
@@ -135,7 +138,8 @@
                     <p>$50.00</p>
                 </div>
                 <div class="col-3">
-                    <img src="./5.jpg" alt="">
+                    <img src="./5.jpg"data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" alt="">
                     <h4 align="center">Embroidered shirt Trouser</h4>
                     <div class="rating" align="center">
                         <i class="fa fa-star"></i>
@@ -147,7 +151,7 @@
                     <p>$50.00</p>
                 </div>
                 <div class="col-3" >
-                    <img src="./s1.jpg" alt="">
+                    <img src="./s1.jpg"  data-aos="fade-down" alt="">
                     <h4 align="center">Flower Strappy</h4>
                     <div class="rating" align="center">
                         <i class="fa fa-star"></i>
@@ -159,7 +163,8 @@
                     <p>$50.00</p>
                 </div>
                 <div class="col-3">
-                    <img src="./s3.jpg" alt="">
+                    <img src="./s3.jpg" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" alt="">
                     <h4 align="center">Formal strips Heels</h4>
                     <div class="rating" align="center">
                         <i class="fa fa-star"></i>
@@ -171,7 +176,7 @@
                     <p>$50.00</p>
                 </div>
                 <div class="col-3">
-                    <img src="./s2.jpg" alt="">
+                    <img src="./s2.jpg" data-aos="fade-down" alt="">
                     <h4 align="center">Snow Boots</h4>
                     <div class="rating" align="center">
                         <i class="fa fa-star"></i>
@@ -187,27 +192,9 @@
         </div>
     </div>
     
-<!-- ------offer---- -->
-
-<div class="offer">
-    <div class="small-container">
-        <div class="row">
-            <div class="col-2">
-                <img src="offer.jpg" alt="">
-            </div>
-            <div class="col-2">
-                <!-- <p>Exclusively Available</p> -->
-                <h1>Wrist Watch</h1>
-                <p>Exclusively Available</p>
-                <small>Designed to show the time in two different time zones simultaneously, the GMT-Master, launched in 1955, was originally developed as a navigation instrument for professionals criss-crossing the globe.</small>
-                <a href="" class="btn">Buy Now &#8594;</a>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- ----footer----- -->
-<!-- 
+
 <div class="footer">
     <div  class="container">
         <div class="row">
@@ -236,6 +223,11 @@
         </div>
     </div>
 </div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
 
 
