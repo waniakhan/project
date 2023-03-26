@@ -4,47 +4,114 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
 </head>
 <body>
+
 <!-- -----nav---- -->
-
-<div class="container">
-    <div class="navbar">
-        <div class="logo">
-            <img src="logo.png" width="125px">
+<div class="color">
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo" data-aos="fade-right">
+                <img src="logo-no-background.png">
+            </div>
+            <nav data-aos="fade-left">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a>
+                    <div class="sub-1">
+                                <ul>
+                                    <li class="hover-me"><a href="#">Clothes</a>
+                                        <div class="sub-2">
+                                            <ul>
+                                                <li><a href="#">Men</a></li>
+                                                <li><a href="#">Women</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="hover-me"><a href="#">Shoes</a>
+                                        <div class="sub-3">
+                                            <ul>
+                                                <li><a href="#">Men</a></li>
+                                                <li><a href="#">Women</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a href="#">Bags</a></li>
+                                    <li><a href="#">Watches</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <i class="fa-sharp fa-solid fa-cart-shopping" style="color: white;"></i>
         </div>
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="">Account</a></li>
-            </ul>
-        </nav>
-        <div class="container">
-            <form action="">
-                <input type="text" placeholder="Search Anything" name="q">
-                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-        </div>
-        <img src="cart.png" alt="" width="30" height="30px">
-    </div>
+
+    
 
 
-
-
+       
+    
+    <!-- ------about us---- -->
 
     <div class="container">
         <div class="row">
-            <div class="col-1">
-                <img src="about us.jpg" alt="">
-                <p>We at Fashion Hub believe in high quality and exceptional customer service. But most importantly, we believe shopping is a right, not a luxury, so we strive to deliver the best products at the most affordable prices, and ship them to you regardless of where you are located.</p>
+            <div class="col-1" >
+                <img src="about us.png" alt="" data-aos="fade-right">
+                <p>We at Fashion Hub believe in high quality and exceptional customer service. But most importantly, we believe shopping is a right, not a luxury, so we strive to deliver the best products at the most affordable prices, and ship them to you regardless of where you are located.No one shall be subjected to arbitrary arrest, detention or exile. Everyone is entitled in full </p>
             </div>
         </div>
 
     </div>
+
+    
+
+<!-- ----footer----- -->
+
+<div class="footer">
+    <div  class="container3">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="">about us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Online Shop</h4>
+                <ul>
+                    <li><a href="">Clothes</a></li>
+                    <li><a href="">Shoes</a></li>
+                    <li><a href="">Bags</a></li>
+                </ul>
+            </div> 
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href=""><i class="fab fa-whatsapp"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+
+
+
 </body>
 </html>
