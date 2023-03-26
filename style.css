@@ -26,6 +26,7 @@
     align-items: center;
     font-size: 22px;
     font-family: 'PT Serif', serif;
+    letter-spacing: 2.5px;
 }
 .logo {
     padding-top: 15px;
@@ -34,7 +35,8 @@
 
 .logo img {
     height: 60px;
-    width: 180px;
+    width: 230px;
+    padding-left:30px;
 }
 
 .cart {
@@ -166,18 +168,22 @@ a{
 
 .col-2 h1{
     color:rgb(250,252,252) ;
-    font-size: 50px;
-    line-height: 60px;
-    margin: 25px 0;
+    font-size: 70px;
+    line-height: 75px;
+    margin-top: 110px;
+    font-family: 'Allura', cursive;
+    letter-spacing: 2.5px;
+    font-weight:lighter;
 }
 .col-2 p{
     font-family: 'PT Serif', serif;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    margin: 10px 0;
 }
 .header{
     height: 100vh;
-    background: linear-gradient(to top, rgb(218, 38, 35), rgba(71, 147, 169))
+    /* background: linear-gradient(to top, rgb(218, 38, 35), rgba(71, 147, 169)); */
 }
 .header .row{
     margin-top: 70px;
@@ -188,26 +194,31 @@ a{
 
 .col-1 img{
   width: 30%;
-  height: 25vh;
+  height: 20vh;
 float:left;
 margin-top:40px ;
+margin-right: 40px;
 }
 .col-1 p{
-margin-top: 90px;
+margin-top: 60px;
   text-align: center;
   text-transform: capitalize;
-  background-color: rgb(247, 248, 248);
+  color: white;
+  font-size: 20px;
+
 }
 
 /* ......products.... */
 
 .small-container h2{
-  color: rgb(215, 44, 44);
-  font-size: 28px;
-  text-transform: capitalize;
+  color: white;
+  font-size: 80px;
   text-align: center;
-  margin-top: 100px;
- 
+  margin-top: 80px;
+  font-family: 'Allura', cursive;
+  letter-spacing: 2.5px;
+  text-decoration: underline 1px  white;
+  font-weight: lighter;
 }
 .row{
   display: flex;
@@ -217,15 +228,20 @@ padding: 10px 0px;
 }
 .col-3{
 margin-inline-start: 30px;
+color: white;
 
 }
 .col-3 img{
   height: 50vh;
   width: 100%;
 /* float: left; */
-padding: 1px;
-margin-top: 30px;
+padding: 5px;
+margin-top: 50px;
 }
+.fa, .fa-regular, .fa-solid, .fa-star-half-stroke {
+    color: white;
+}
+
 
 
 /* ...footer... */
@@ -302,48 +318,6 @@ color: #fbf9f9;
 color: rgb(13, 13, 13);
 background-color:rgb(251, 250, 251) ;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+.color{
+    background: linear-gradient(to top, rgb(110, 3, 8),rgba(194, 32, 40, 0.856),rgb(67, 146, 168));
 }
-
